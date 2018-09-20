@@ -1,5 +1,5 @@
 interface Ifilters {
-    [friendlyDate: string]: (dateStr: string | Date) => string
+    [friendlyDate: string]: Function
 }
 
 
